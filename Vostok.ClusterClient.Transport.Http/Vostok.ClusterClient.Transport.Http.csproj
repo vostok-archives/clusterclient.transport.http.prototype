@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.0;netstandard2.0;net471</TargetFrameworks>
+    <RootNamespace>Vostok.Clusterclient.Transport.Http</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
+    <Compile Remove="net46\**" />
+    <None Include="net46\**" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <Compile Remove="net46\**" />
+    <None Include="net46\**" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net471'">
+    <Compile Remove="netstandard\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Vostok.Core">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\vostok.core\Vostok.Core\bin\Release\netstandard2.0\Vostok.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Vostok.ClusterClient">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\vostok.clusterclient\Vostok.ClusterClient\bin\Release\netstandard2.0\Vostok.ClusterClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
