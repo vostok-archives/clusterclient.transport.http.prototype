@@ -3,6 +3,8 @@ full-build *default:
   build:
     target: Vostok.ClusterClient.Transport.Http.sln
     configuration: Release
+    tool:
+      name: dotnet
 
   install:
     - Vostok.ClusterClient.Transport.Http/bin/Release/netstandard2.0/Vostok.ClusterClient.Transport.Http.dll
