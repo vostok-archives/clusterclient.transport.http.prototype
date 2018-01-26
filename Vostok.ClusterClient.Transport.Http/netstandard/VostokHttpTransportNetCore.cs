@@ -12,14 +12,14 @@ namespace Vostok.Clusterclient.Transport.Http
 {
     // TODO(iloktionov): 1. Tune CurlHandler in case it backs our handler (see SetCurlOption function with CURLOPT_CONNECTTIMEOUT_MS)
     // TODO(iloktionov): 2. Classify errors from CurlHandler (they are CurlExceptions, see Interop.CURLcode in corefx)
-    public partial class VostokHttpTransport : IDisposable
+    public class VostokHttpTransportNetCore : IDisposable, IHttpTransport
     {
         private readonly ILog log;
         private readonly HttpClientHandler handler;
         private readonly HttpClient httpClient;
         private TimeSpan? connectionTimeout;
 
-        public VostokHttpTransport(ILog log)
+        public VostokHttpTransportNetCore(ILog log)
         {
             this.log = log ?? throw new ArgumentNullException(nameof(log));
 
@@ -89,7 +89,7 @@ namespace Vostok.Clusterclient.Transport.Http
             {
                 AllowAutoRedirect = false,
                 AutomaticDecompression = DecompressionMethods.None,
-                CheckCertificateRevocationList = false,
+                //CheckCertificateRevocationList = false,
                 MaxConnectionsPerServer = 10000,
                 Proxy = null,
                 PreAuthenticate = false,

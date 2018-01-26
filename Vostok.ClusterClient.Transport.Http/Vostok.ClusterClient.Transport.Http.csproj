@@ -4,17 +4,6 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Vostok.Clusterclient.Transport.Http</RootNamespace>
   </PropertyGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.0'">
-    <Compile Remove="net46\**" />
-    <None Include="net46\**" />
-  </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-    <Compile Remove="net46\**" />
-    <None Include="net46\**" />
-  </ItemGroup>
-  <ItemGroup Condition="'$(TargetFramework)' == 'net471'">
-    <Compile Remove="netstandard\**" />
-  </ItemGroup>
   <ItemGroup>
     <Reference Include="Vostok.Core">
       <SpecificVersion>False</SpecificVersion>

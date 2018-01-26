@@ -10,15 +10,14 @@ namespace Vostok
 {
     public abstract class TransportTestsBase
     {
-        protected readonly VostokHttpTransport Transport;
-        protected readonly ILog Log;
+        protected readonly IHttpTransport Transport;
 
         protected TransportTestsBase()
         {
-            Log = new ConsoleLog();
-            Transport = new VostokHttpTransport(Log);
+            ILog log = new ConsoleLog();
+            Transport = ClusterClientConfigurationHelper.CreateTransport(log);
 
-            ThreadPoolUtility.Setup(Log);
+            ThreadPoolUtility.Setup(log);
         }
 
         protected Response Send(Request request, TimeSpan? timeout = null, CancellationToken cancellationToken = default(CancellationToken))
