@@ -1,18 +1,18 @@
 default:
 
   build:
-    target: Vostok.ClusterClient.Transport.Http.sln
+    target: Vstk.ClusterClient.Transport.Http.sln
     tool:
       name: dotnet
 
   install:
-    - Vostok.ClusterClient.Transport.Http/bin/Release/netstandard2.0/Vostok.ClusterClient.Transport.Http.dll
-    - module vostok.core
-    - module vostok.clusterclient
+    - Vstk.ClusterClient.Transport.Http/bin/Release/netstandard2.0/Vstk.ClusterClient.Transport.Http.dll
+    - module vstk.core
+    - module vstk.clusterclient
 
   deps:
-    - vostok.core
-    - vostok.clusterclient
+    - vstk.core
+    - vstk.clusterclient
   
 notests *default:
   build:
