@@ -12,7 +12,7 @@ namespace Vstk.Clusterclient.Transport.Http
 {
     // ReSharper disable MethodSupportsCancellation
     // ReSharper disable PossibleNullReferenceException
-    public class VstkHttpTransportNetFramework : IHttpTransport
+    public class VostokHttpTransportNetFramework : IHttpTransport
     {
         private const int preferredReadSize = 16 * 1024;
         private const int lohObjectSizeThreshold = 85 * 1000;
@@ -24,7 +24,7 @@ namespace Vstk.Clusterclient.Transport.Http
         private readonly ConnectTimeLimiter connectTimeLimiter;
         private readonly ThreadPoolMonitor threadPoolMonitor;
 
-        public VstkHttpTransportNetFramework(ILog log)
+        public VostokHttpTransportNetFramework(ILog log)
         {
             this.log = log ?? throw new ArgumentNullException(nameof(log));
 

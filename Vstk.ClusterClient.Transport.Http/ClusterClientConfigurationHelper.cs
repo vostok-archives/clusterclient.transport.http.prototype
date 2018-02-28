@@ -19,8 +19,8 @@ namespace Vstk.Clusterclient.Transport.Http
             var frameworkAttribute = Assembly.GetCallingAssembly().GetCustomAttributes(typeof(System.Runtime.Versioning.TargetFrameworkAttribute), false)
                 .Cast<System.Runtime.Versioning.TargetFrameworkAttribute>().FirstOrDefault();
             if (frameworkAttribute != null && frameworkAttribute.FrameworkName.StartsWith(".NETFramework"))
-                return new VstkHttpTransportNetFramework(log);
-            return new VstkHttpTransportNetCore(log);
+                return new VostokHttpTransportNetFramework(log);
+            return new VostokHttpTransportNetCore(log);
         }
     }
 }
