@@ -2,7 +2,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Vostok team</Authors>
+    <Company>SKB Kontur</Company>
+    <Product>Vostok</Product>
     <RootNamespace>Vstk.Clusterclient.Transport.Http</RootNamespace>
+    <Copyright>Copyright © SKB Kontur 2017-2018</Copyright>
+    <PackageProjectUrl>https://github.com/vostok/vstk.clusterclient.transport.http</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/vostok/vstk.clusterclient.transport.http/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>Http implementation of cluster client</Description>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Vstk.Core">
