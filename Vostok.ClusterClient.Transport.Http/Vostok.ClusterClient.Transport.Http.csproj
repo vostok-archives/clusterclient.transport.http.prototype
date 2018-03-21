@@ -5,20 +5,20 @@
     <Authors>Vostok team</Authors>
     <Company>SKB Kontur</Company>
     <Product>Vostok</Product>
-    <RootNamespace>Vstk.Clusterclient.Transport.Http</RootNamespace>
+    <RootNamespace>Vostok.Clusterclient.Transport.Http</RootNamespace>
     <Copyright>Copyright © SKB Kontur 2017-2018</Copyright>
-    <PackageProjectUrl>https://github.com/vostok/vstk.clusterclient.transport.http</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/vostok/vstk.clusterclient.transport.http/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/vostok/vostok.clusterclient.transport.http</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/vostok/vostok.clusterclient.transport.http/blob/master/LICENSE</PackageLicenseUrl>
     <Description>Http implementation of cluster client</Description>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Vstk.Core">
+    <Reference Include="Vostok.Core">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\vstk.core\Vstk.Core\bin\Release\netstandard2.0\Vstk.Core.dll</HintPath>
+      <HintPath>..\..\vostok.core\Vostok.Core\bin\Release\netstandard2.0\Vostok.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Vstk.ClusterClient">
+    <Reference Include="Vostok.ClusterClient">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\vstk.clusterclient\Vstk.ClusterClient\bin\Release\netstandard2.0\Vstk.ClusterClient.dll</HintPath>
+      <HintPath>..\..\vostok.clusterclient\Vostok.ClusterClient\bin\Release\netstandard2.0\Vostok.ClusterClient.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

@@ -5,9 +5,9 @@ using System.Linq.Expressions;
 using System.Net.Http;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using Vstk.Logging;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     internal static class WinHttpHandlerTuner
     {

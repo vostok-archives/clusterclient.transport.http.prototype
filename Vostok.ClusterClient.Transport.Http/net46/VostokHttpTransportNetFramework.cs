@@ -3,12 +3,12 @@ using System.IO;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Collections;
-using Vstk.Commons.Extensions.UnitConvertions;
-using Vstk.Logging;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Collections;
+using Vostok.Commons.Extensions.UnitConvertions;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     // ReSharper disable MethodSupportsCancellation
     // ReSharper disable PossibleNullReferenceException

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Specialized;
 
-namespace Vstk.Helpers
+namespace Vostok.Helpers
 {
     internal class ReceivedRequest
     {

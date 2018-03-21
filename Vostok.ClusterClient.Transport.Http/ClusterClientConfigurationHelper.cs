@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using System.Reflection;
-using Vstk.Logging;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     public static class ClusterClientConfigurationHelper
     {

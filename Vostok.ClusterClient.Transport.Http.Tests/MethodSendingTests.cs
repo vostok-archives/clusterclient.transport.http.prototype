@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Helpers;
 
-namespace Vstk
+namespace Vostok
 {
     public class MethodSendingTests : TransportTestsBase
     {

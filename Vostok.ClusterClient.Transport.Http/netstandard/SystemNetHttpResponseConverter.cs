@@ -1,8 +1,8 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     internal static class SystemNetHttpResponseConverter
     {

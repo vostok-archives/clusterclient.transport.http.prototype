@@ -1,6 +1,6 @@
-﻿namespace Vstk.Clusterclient.Transport.Http
+﻿namespace Vostok.Clusterclient.Transport.Http
 {
-    public class BaseVstkHttpTransport 
+    public class BaseVostokHttpTransport 
     {
        
     }

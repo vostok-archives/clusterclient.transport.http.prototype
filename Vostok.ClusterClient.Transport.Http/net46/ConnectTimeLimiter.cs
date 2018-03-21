@@ -2,10 +2,10 @@
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Logging;
+using Vostok.Clusterclient.Model;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     // ReSharper disable PossibleInvalidOperationException
 

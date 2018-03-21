@@ -1,11 +1,11 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Extensions.UnitConvertions;
-using Vstk.Commons.Utilities;
-using Vstk.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Extensions.UnitConvertions;
+using Vostok.Commons.Utilities;
+using Vostok.Helpers;
 
-namespace Vstk
+namespace Vostok
 {
     public class ContentReceivingTests : TransportTestsBase
     {

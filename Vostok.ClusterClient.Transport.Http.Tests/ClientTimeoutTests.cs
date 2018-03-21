@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using FluentAssertions;
 using NUnit.Framework;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Extensions.UnitConvertions;
-using Vstk.Helpers;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Extensions.UnitConvertions;
+using Vostok.Helpers;
 
-namespace Vstk
+namespace Vostok
 {
     public class ClientTimeoutTests : TransportTestsBase
     {

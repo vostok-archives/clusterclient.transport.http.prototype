@@ -4,11 +4,11 @@ using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Vstk.Clusterclient.Model;
-using Vstk.Commons.Extensions.UnitConvertions;
-using Vstk.Logging;
+using Vostok.Clusterclient.Model;
+using Vostok.Commons.Extensions.UnitConvertions;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     // TODO(iloktionov): 1. Tune CurlHandler in case it backs our handler (see SetCurlOption function with CURLOPT_CONNECTTIMEOUT_MS)
     // TODO(iloktionov): 2. Classify errors from CurlHandler (they are CurlExceptions, see Interop.CURLcode in corefx)

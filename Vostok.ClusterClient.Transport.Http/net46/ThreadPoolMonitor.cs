@@ -1,8 +1,8 @@
 ﻿using System;
-using Vstk.Commons.Threading;
-using Vstk.Logging;
+using Vostok.Commons.Threading;
+using Vostok.Logging;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     internal class ThreadPoolMonitor
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
-using Vstk.Clusterclient.Model;
+using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     internal static class SystemNetHttpRequestConverter
     {

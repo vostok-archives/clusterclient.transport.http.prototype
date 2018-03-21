@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     public interface IHttpTransport : ITransport
     {

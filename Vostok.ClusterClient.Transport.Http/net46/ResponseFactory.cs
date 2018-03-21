@@ -1,6 +1,6 @@
-﻿using Vstk.Clusterclient.Model;
+﻿using Vostok.Clusterclient.Model;
 
-namespace Vstk.Clusterclient.Transport.Http
+namespace Vostok.Clusterclient.Transport.Http
 {
     internal static class ResponseFactory
     {

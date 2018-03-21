@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading;
-using Vstk.Clusterclient.Model;
-using Vstk.Clusterclient.Transport.Http;
-using Vstk.Commons.Threading;
-using Vstk.Logging;
-using Vstk.Logging.Logs;
+using Vostok.Clusterclient.Model;
+using Vostok.Clusterclient.Transport.Http;
+using Vostok.Commons.Threading;
+using Vostok.Logging;
+using Vostok.Logging.Logs;
 
-namespace Vstk
+namespace Vostok
 {
     public abstract class TransportTestsBase
     {
