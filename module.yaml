@@ -7,12 +7,12 @@ default:
 
   install:
     - Vostok.ClusterClient.Transport.Http/bin/Release/netstandard2.0/Vostok.ClusterClient.Transport.Http.dll
-    - module vostok.core
-    - module vostok.clusterclient
+    - module vostok.legacy.core
+    - module vostok.legacy.clusterclient
 
   deps:
-    - vostok.core
-    - vostok.clusterclient
+    - vostok.legacy.core
+    - vostok.legacy.clusterclient
   
 notests *default:
   build:
